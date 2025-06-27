@@ -1,0 +1,8 @@
+/* BEGIN wpcp_print_page_preventer_script */
+		@media print {
+			body * { display: none !important;}
+			body:after {
+				content: "Print page disabled message 3"; }
+			}
+/* END wpcp_print_page_preventer_script */
+
